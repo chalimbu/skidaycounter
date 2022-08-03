@@ -1,3 +1,6 @@
+crear una mutacion de mentira que reciba los parametros de SkiDay y devuelva un skyDay,
+probarlo en localhost:4000
+
 from the course
 https://www.linkedin.com/learning/learning-graphql-11292553/an-introduction-to-graphql?autoplay=true&resume=false&u=87241354
 

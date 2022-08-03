@@ -19,16 +19,7 @@ const typeDefs = gql`
     allDays: [SkiDay]!
   }
 
-  type Mutation{
-      addDay(input: AddDayInput!):SkiDay
-      removeDay(id: ID!): SkiDay!
-  }
 
-  input AddDayInput{
-      date: String!
-      mountain: String!
-      conditions: Conditions
-  }
 `;
 
 const server = new ApolloServer({
