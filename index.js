@@ -4,17 +4,10 @@ const { MockList } = require('@graphql-tools/mock');
 const typeDefs = gql`
   scalar Date
 
-"""
-An object that describes teh characteristics of a ski day
-"""
   type SkiDay {
-    "A ski day's unique identifier"
     id: ID!
-    "The date that a ski day occurred"
     date: Date!
-    "The location where a ski day occured"
     mountain: String!
-    "The shape that the snow was in when this skiday happened"
     conditions: Conditions
   }
   enum Conditions{
